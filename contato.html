@@ -51,20 +51,26 @@
 	</section>
 
 	<section data-anime="1200" class="fadeInDown contato container">
-		<form id="form_orcamento" action="" class="contato_form grid-8">
+		<form id="form_orcamento" action="enviar-sendgrid.php" method="POST" class="contato_form grid-8 formphp">
 			<label for="nome">Nome</label>
-			<input type="text" name="nome" id="nome">
+			<input type="text" name="nome" id="nome" required>
 
 			<label for="email">E-mail</label>
-			<input type="email" name="email" id="email">
+			<input type="email" name="email" id="email" required>
 
 			<label for="telefone">Telefone</label>
 			<input type="text" name="telefone" id="telefone">
 
-			<label for="espec">Especificações</label>
-			<textarea name="espec" id="espec"></textarea>
+			<label class="nao-aparece">Se você não é um robô, deixe este campo em branco.</label>
+			<input type="text" class="nao-aparece" name="leaveblank">
 
-			<button class="btn btn-preto" type="submit">Enviar</button>
+			<label class="nao-aparece">Se você não é um robô, mude este campo.</label>
+			<input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+			<label for="mensagem">Mensagem</label>
+			<textarea name="mensagem" id="mensagem" required></textarea>
+
+			<button id="enviar" name="enviar" class="btn btn-preto" type="submit">Enviar</button>
 		</form>
 		<div class="contato_dados grid-8">
 			<h3>Dados</h3>
@@ -161,6 +167,7 @@
 	</footer>
 
 	<script src="js/simple-anime.js"></script>
+	<script src="js/simple-form.js"></script>
 	<script src="js/script.js"></script>
 </body>
 

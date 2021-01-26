@@ -448,14 +448,16 @@ img {
     transform: translate3d(0, -20px, 0);
 }
 
-.fadeInUp {
-    transform: translate3d(0, 20px, 0);
+.nao-aparece {
+    visibility: hidden;
+    position: absolute;
+    height: 0;
 }
 
-.fadeInRight {
-    transform: translate3d(20px, 0, 0);
+#form-sucesso {
+    color: #31AA39;
 }
 
-.fadeInLeft {
-    transform: translate3d(-20px, 0, 0);
+#form-erro {
+    color: #F64540;
 }
