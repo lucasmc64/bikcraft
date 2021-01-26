@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/portfolio.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<script>
+		window.document.documentElement.classList.add("js");
+	</script>
 	<title>Bikcraft - Portfólio</title>
 </head>
 
@@ -47,7 +50,17 @@
 		</div>
 	</section>
 
-	<section class="container">
+	<section class="container" data-slide="quote">
+		<blockquote class="quote_clientes">
+			<p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão
+				inovadora da qual fazemos parte."</p>
+			<cite>Barbara Moss</cite>
+		</blockquote>
+		<blockquote class="quote_clientes">
+			<p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão
+				inovadora da qual fazemos parte."</p>
+			<cite>Barbara Moss</cite>
+		</blockquote>
 		<blockquote class="quote_clientes">
 			<p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão
 				inovadora da qual fazemos parte."</p>
@@ -56,7 +69,7 @@
 	</section>
 
 	<section class="portfolio">
-		<div class="container">
+		<div class="container" data-slide="portfolio">
 			<ul class="portfolio_lista">
 				<li class="grid-8">
 					<img src="img/portfolio/retro.jpg" alt="Bibicleta Retrô">
@@ -64,6 +77,20 @@
 
 				<li class="grid-8">
 					<img src="img/portfolio/passeio.jpg" alt="Bibicleta Passeio">
+				</li>
+
+				<li class="grid-16">
+					<img src="img/portfolio/esporte.jpg" alt="Bibicleta Esporte">
+				</li>
+			</ul>
+
+			<ul class="portfolio_lista">
+				<li class="grid-8">
+					<img src="img/portfolio/passeio.jpg" alt="Bibicleta Passeio">
+				</li>
+
+				<li class="grid-8">
+					<img src="img/portfolio/retro.jpg" alt="Bibicleta Retrô">
 				</li>
 
 				<li class="grid-16">
@@ -130,6 +157,9 @@
 			</div>
 		</div>
 	</footer>
+
+	<script src="js/simple-slide.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
