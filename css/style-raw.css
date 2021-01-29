@@ -1,4 +1,7 @@
 /* Estilos Gerais */
+* {
+    transition: all 200ms ease-in-out;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -441,7 +444,7 @@ img {
 .js .anime {
     opacity: 1;
     transform: none;
-    transition: opacity 800ms, transform 800ms;
+    transition: opacity 800ms, transform 800ms, color 200ms, border 200ms;
 }
 
 .fadeInDown {
@@ -454,10 +457,12 @@ img {
     height: 0;
 }
 
-#form-sucesso {
+#form-sucesso p,
+#form-sucesso h2 {
     color: #31AA39;
 }
 
-#form-erro {
+#form-erro p,
+#form-erro h2 {
     color: #F64540;
 }
