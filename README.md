@@ -8,7 +8,7 @@
 
 ## What is Origamid? :wolf:
 
-Origamid é uma instituição de ensino online criada por Mestre André Rafael com o objetivo de transmitir seus conhecimentos em Front-end e UI&UX.
+Origamid is an online education institution created by André Rafael with the aim of transmitting his knowledge in Front-end and UI&UX.
 
 ## Goal :dart:
 

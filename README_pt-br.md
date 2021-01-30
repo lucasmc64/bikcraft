@@ -8,7 +8,7 @@
 
 ## O que é a Origamid? :wolf:
 
-A Origamid é uma instituição de ensino online criada pelo Mestre André Rafael com o intuito de repassar seus conhecimentos em Front-end e UI&UX.
+A Origamid é uma instituição de ensino online criada pelo André Rafael com o intuito de repassar seus conhecimentos em Front-end e UI&UX.
 
 ## Objetivo :dart:
 
