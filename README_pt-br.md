@@ -4,7 +4,7 @@
 
 > :us: If you prefer to read in another language, this README was also written in english. Click [HERE](https://github.com/lucasmc64/bikcraft/blob/main/README.md) to access.
 
-*Esse foi um projeto desenvolvido durante o curso Web Design da [Origamid](https://www.origamid.com/).*
+*Esse foi um projeto desenvolvido durante o [curso Web Design](https://www.origamid.com/curso/web-design-completo/) da [Origamid](https://www.origamid.com/).*
 
 ## O que é a Origamid? :wolf:
 
