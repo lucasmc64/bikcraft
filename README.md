@@ -2,7 +2,7 @@
 
 # Bikcraft :bike:
 
-> :brazil: Caso prefira ler em outra língua, esse README foi escrito também em português. Clique [AQUI](https://github.com/lucasmc64/bikcraft/blob/main/README_pt-br.md) para acessar.
+> :brazil: Caso prefira ler em outra língua, esse README foi escrito também em português. Clique [AQUI](/README_pt-br.md) para acessar.
 
 *This was a project developed during the [Origamid](https://www.origamid.com/) [Web Design course](https://www.origamid.com/curso/web-design-completo/).*
 
