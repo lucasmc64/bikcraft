@@ -29,8 +29,9 @@ O primeiro passo é clonar o projeto, seja via terminal ou GitHub Desktop, ou me
 >
 > Porém, caso queira testar a funcionalidade de envio de formulário, as ferramentas abaixo são necessárias.
 
-* [Node.JS](https://nodejs.org/) (ou o [Yarn](https://yarnpkg.com/))  instalado.
-* [VSCode](https://code.visualstudio.com/) e a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) instalados.
+* [Node.JS](https://nodejs.org/).
+* (Opcional) [Yarn](https://yarnpkg.com/).
+* [VSCode](https://code.visualstudio.com/) e a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ## Instalando dependências :mag:
 

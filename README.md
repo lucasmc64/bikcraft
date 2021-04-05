@@ -29,8 +29,9 @@ The first step is to clone the project, either via terminal or GitHub Desktop, o
 >
 > However, if you want to test the form submission functionality, the tools below are required.
 
-* [Node.JS](https://nodejs.org/) (or [Yarn](https://yarnpkg.com/))  installed.
-* [VSCode](https://code.visualstudio.com/) and the extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) installed.
+* [Node.JS](https://nodejs.org/).
+* (Optional) [Yarn](https://yarnpkg.com/).
+* [VSCode](https://code.visualstudio.com/) and the extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ## Installing dependencies :mag:
 
