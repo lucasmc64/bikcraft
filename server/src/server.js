@@ -20,5 +20,5 @@ server.use(function (request, response, next) {
 server.use(routes);
 
 server.listen('8935', function() {
-    console.log('Server is running!')
+    console.log('Server is running!');
 });

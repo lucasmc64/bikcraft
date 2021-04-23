@@ -85,7 +85,8 @@ routes.post('/contact', upload.none(), validateForm, async function(request, res
 
         return response.json({ ok: 'okay' });
     } catch (error) {
-        console.error(error)
+        console.error(error);
+        return response.send('Houston, nós temos um problema. Tente enviar a mensagem mais tarde ou envie um email diretamente para equipebikcraft@bikcraft.com.');
     }
 });
 

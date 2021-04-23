@@ -33,19 +33,19 @@ The first step is to clone the project, either via terminal or GitHub Desktop, o
 * (Optional) [Yarn](https://yarnpkg.com/).
 * [VSCode](https://code.visualstudio.com/) and the extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-## :mag: Installing dependencies
+### :mag: Installing dependencies
 
-With Node.JS installed, access the *node-server* folder via terminal and run the `npm install` command. If you prefer to use Yarn, just run the command `yarn`.
+With Node.JS installed, access the *server* folder via terminal and run the `npm install` command. If you prefer to use Yarn, just run the command `yarn`.
 
 ### :goggles: Running the back-end
 
-Before running the server, it is necessary to make a configuration. Open the *node-server/src/mailer.js* file and add your SMTP login credentials.
+Before running the server, it is necessary to make a configuration. Open the *server/src/mailer.js* file and add your SMTP login credentials, also changing the * host * and * port * as provided by your preferred service.
 
-> For my tests I used the services of [Mailtrap](https://mailtrap.io/). If you are not going to use it, also change the *host* and *port* as provided by your preferred service.
+> For my tests I used the services of [Mailtrap](https://mailtrap.io/).
 
 ![Login credentials](readme-images/changing-smtp-login.png)
 
-Access the *node-server* directory via terminal and run `npm start` (or` yarn start`) and a message similar to the following will appear for you:
+Access the *server* directory via terminal and run `npm start` (or` yarn start`) and a message similar to the following will appear for you:
 
 ![Running the server](readme-images/running-server.png)
 

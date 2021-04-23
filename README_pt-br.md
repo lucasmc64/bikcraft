@@ -33,19 +33,19 @@ O primeiro passo é clonar o projeto, seja via terminal ou GitHub Desktop, ou me
 * (Opcional) [Yarn](https://yarnpkg.com/).
 * [VSCode](https://code.visualstudio.com/) e a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-## :mag: Instalando dependências
+### :mag: Instalando dependências
 
-Com o Node.JS instalado, acesse a pasta *node-server* via terminal e rode o comando `npm install`. Caso você prefira usar o Yarn, basta rodar o comando `yarn`.
+Com o Node.JS instalado, acesse a pasta *server* via terminal e rode o comando `npm install`. Caso você prefira usar o Yarn, basta rodar o comando `yarn`.
 
 ### :goggles: Rodando o back-end
 
-Antes de executar o servidor é necessário fazer uma configuração. Abra o arquivo *node-server/src/mailer.js* e adicione suas credenciais SMTP de login.
+Antes de executar o servidor é necessário fazer uma configuração. Abra o arquivo *server/src/mailer.js* e adicione suas credenciais SMTP de login, trocando também o *host* e a *port* conforme fornecido pelo seu serviço de preferência.
 
-> Para meus testes usei os serviços do [Mailtrap](https://mailtrap.io/). Caso não o for usá-lo, troque também o *host* e a *port* conforme fornecido pelo seu serviço de preferência.
+> Para meus testes usei os serviços do [Mailtrap](https://mailtrap.io/).
 
 ![Credenciais de login](readme-images/changing-smtp-login.png)
 
-Acesse o diretório *node-server* via terminal e execute `npm start` (ou `yarn start`) e uma mensagem parecida com a seguinte aparecerá para você:
+Acesse o diretório *server* via terminal e execute `npm start` (ou `yarn start`) e uma mensagem parecida com a seguinte aparecerá para você:
 
 ![Rodando o servidor](readme-images/running-server.png)
 
@@ -55,7 +55,7 @@ Obs.: Caso não tenha sido esse o resultado, verifique que os requisitos e os pa
 
 Abra a pasta do projeto no VSCode e, clicando com o botão direito sobre o arquivo *index.html*, escolha *Open with Live Server*. Um servidor será iniciado pela extensão e ela abrirá o site no seu navegador padrão.
 
-> Não se esqueça de deixar o back-end redando em paralelo!
+> Não se esqueça de deixar o back-end rodando em paralelo!
 
 ## :tada: Se tudo deu certo...
 
