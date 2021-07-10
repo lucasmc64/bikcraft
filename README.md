@@ -2,9 +2,7 @@
 
 # :bike: Bikcraft
 
-> :brazil: Caso prefira ler em outra língua, esse README foi escrito também em português. Clique [AQUI](/README_pt-br.md) para acessar.
-
-*This was a project developed during the [Origamid](https://www.origamid.com/) [Web Design course](https://www.origamid.com/curso/web-design-completo/).*
+> This was a project developed during the [Origamid](https://www.origamid.com/) [Web Design course](https://www.origamid.com/curso/web-design-completo/).
 
 ## :wolf: What is Origamid?
 
@@ -60,3 +58,11 @@ Open the project folder in VSCode and, by right-clicking on the *index.html* fil
 ## :tada: If everything went well...
 
 Now you are running the project beautifully!
+
+## :memo: License
+
+This project is under the MIT license. See the [LICENSE](LICENSE) for more information.
+
+---
+
+Made with :black_heart: by Lucas Coutinho :wave: [Get in touch!](https://www.linkedin.com/in/lucasmc64/)
