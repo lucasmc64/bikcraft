@@ -14,8 +14,8 @@ Bikcraft is a team of creative people who idealize, build and sell customized bi
 
 ## :scroll: Some details
 
-* Sending forms, unlike the original project, is done through Node.JS.
-* The front-end is made with HTML5, CSS3 and JavaScript.
+- Sending forms, unlike the original project, is done through Node.JS.
+- The front-end is made with HTML5, CSS3 and JavaScript.
 
 ## :thinking: How do I run the project on my machine?
 
@@ -27,9 +27,9 @@ The first step is to clone the project, either via terminal or GitHub Desktop, o
 >
 > However, if you want to test the form submission functionality, the tools below are required.
 
-* [Node.JS](https://nodejs.org/).
-* (Optional) [Yarn](https://yarnpkg.com/).
-* [VSCode](https://code.visualstudio.com/) and the extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+- [Node.JS](https://nodejs.org/).
+- (Optional) [Yarn](https://yarnpkg.com/).
+- [VSCode](https://code.visualstudio.com/) and the extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 ### :mag: Installing dependencies
 
@@ -43,7 +43,7 @@ Before running the server, it is necessary to make a configuration. Open the *se
 
 ![Login credentials](readme-images/changing-smtp-login.png)
 
-Access the *server* directory via terminal and run `npm start` (or` yarn start`) and a message similar to the following will appear for you:
+Access the *server* directory via terminal and run `npm start` or ` yarn start` and a message similar to the following will appear for you:
 
 ![Running the server](readme-images/running-server.png)
 
